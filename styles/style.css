@@ -24,6 +24,7 @@ p {
 
 .header__title {
   margin: 0 0 0 60px;
+  padding: 0;
   width: 730px;
   align-self: center;
   line-height: 96px;
@@ -43,7 +44,8 @@ p {
 }
 
 .header__subtitle {
-  margin: 0 0;
+  margin: 0;
+  padding: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -52,6 +54,10 @@ p {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.header__link {
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -72,6 +78,50 @@ p {
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px auto;
+  width: 80%;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /* и элемента с модификатором вида ключ-значение */
