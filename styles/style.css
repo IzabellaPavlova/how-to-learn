@@ -48,7 +48,7 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  max-width: 338px;
+  max-width: 388px;
   z-index: 2;
   line-height: 25px;
   font-size: 18px;
@@ -66,8 +66,7 @@
   bottom: 0;
   width: 765px;
   height: 608px;
-  /* background-image: url(../images/header-image.png); */
-  background-size: cover;
+  object-fit: cover;
   z-index: 1;
 }
 
@@ -236,6 +235,7 @@
 }
 
 .section-title_theme_dark {
+  position: relative;
   color: white;
   padding-top: 90px;
   z-index: 1;
@@ -274,6 +274,7 @@
 /* Footer */
 
 .footer {
+  display: flex;
   min-height: 350px;
   background-color: #1f1f1f;
 }
