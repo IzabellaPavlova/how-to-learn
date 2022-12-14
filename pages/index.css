@@ -17,6 +17,7 @@
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
 /* Description */
+@import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
@@ -37,6 +38,12 @@
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__image/cards__image.css);
+
+/* Oakley */
+@import url(../blocks/oakley/oakley.css);
+
+/* Digits */
+@import url(../blocks/digits/digits.css);
 
 /* Table */
 @import url(../blocks/table/table.css);
