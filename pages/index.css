@@ -11,6 +11,9 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 
+/* Rotation */
+@import url(../blocks/rotation/rotation.css);
+
 /* Logo */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
