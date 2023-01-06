@@ -10,4 +10,4 @@ __Используемые технологии:__
 * iframe
 * CSS анимации
 
-Просмотреть проект на [GitHub pages](https://izabellapavlova.github.io/how-to-learn/)
+[Просмотреть проект на GitHub Pages](https://izabellapavlova.github.io/how-to-learn/)
