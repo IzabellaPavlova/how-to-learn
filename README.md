@@ -9,3 +9,5 @@ __Используемые технологии:__
 * flex
 * iframe
 * CSS анимации
+
+Просмотреть проект на [GitHub pages](https://izabellapavlova.github.io/how-to-learn/)
